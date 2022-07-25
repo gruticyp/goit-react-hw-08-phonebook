@@ -13,3 +13,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+a{
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 15px;
+}
+.section {
+  padding: 40px 0;
+}
+.title{
+  text-align: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+input:focus {
+  outline:greenyellow;
+  border-color: greenyellow;
+}
